@@ -38,14 +38,11 @@ export const SplashScreen = ({ onStart }) => {
         <div className="flex items-center gap-2 mb-1">
           <span className="text-xl">🐾</span>
           <h1 className="text-lg font-black text-black font-['Fredoka'] tracking-wide text-center leading-tight">
-            Raspadinha da Revelação Felina!
+            Raspadinha da Revelação!
           </h1>
           <span className="text-xl">🐾</span>
         </div>
 
-        <p className="text-[12px] text-slate-300 font-medium text-center max-w-[280px] leading-snug">
-          Raspe os 9 cartões e descubra o segredo escondido no <strong className="text-pink-200">último</strong> miado! 😺
-        </p>
 
         <button
           onClick={handleStart}
@@ -53,10 +50,6 @@ export const SplashScreen = ({ onStart }) => {
         >
           Começar a Raspar! 🪙
         </button>
-
-        <p className="text-[10px] text-slate-500 font-medium">
-          🎉 O resultado está no último cartão!
-        </p>
       </div>
     </div>
   );
