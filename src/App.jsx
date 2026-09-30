@@ -18,10 +18,10 @@ const handleShare = async () => {
     try { await navigator.share(shareData); } catch { }
   } else {
     try {
-      await navigator.clipboard.writeText(`🐾 É UM MENINO! Bem-vindo, Levi! 👑💙🍼\n${window.location.href}`);
+      await navigator.clipboard.writeText(`🐾 É menino ou menina??👑🍼\n${window.location.href}`);
       alert('✅ Link copiado! Compartilhe com todos!');
     } catch {
-      alert('🐾 É UM MENINO! Bem-vindo, Levi! 👑💙🍼');
+      alert('🐾 É menino ou menina??👑🍼');
     }
   }
 };
