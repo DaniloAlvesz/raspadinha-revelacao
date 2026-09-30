@@ -10,8 +10,8 @@ import bgScratch from './assets/bg_scratch.png';
 // ─── Compartilhar ─────────────────────────────────────────────────────────────
 const handleShare = async () => {
   const shareData = {
-    title: 'É UM MENINO! 💙 - Levi chegou!',
-    text: '🐾 Raspadinha da Revelação do bebê de Danilo e Joana: Menina ou Menino? 👑💙🍼',
+    title: 'Revelação do bebê de Danilo e Joana',
+    text: '🐾 Raspadinha da Revelação: Menina ou Menino? 👑🍼',
     url: window.location.href,
   };
   if (navigator.share) {
